@@ -7,6 +7,7 @@
         android:id="@+id/red_block"
         android:layout_width="3dp"
         android:layout_height="16dp"
+        android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:background="#FF0000" />
 
@@ -25,6 +26,6 @@
         android:layout_width="14dp"
         android:layout_height="14dp"
         android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/tv_content"
+        android:layout_toRightOf="@+id/iv_content"
         android:src="@drawable/ic_arrow" />
 </RelativeLayout>
